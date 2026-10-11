@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: f721b13f32cabd9aa9130238de13fd85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1850514718787326363
+    second: RedFishHerd_0
+  - first:
+      213: -7952390029899894264
+    second: RedFishHerd_1
+  - first:
+      213: -3905370037269805495
+    second: RedFishHerd_2
+  - first:
+      213: -1297385413607268310
+    second: RedFishHerd_3
+  - first:
+      213: 8553011700093095457
+    second: RedFishHerd_4
+  - first:
+      213: 2250397092557142381
+    second: RedFishHerd_5
+  - first:
+      213: -8362441877914076767
+    second: RedFishHerd_6
+  - first:
+      213: -5888252844312988642
+    second: RedFishHerd_7
+  - first:
+      213: 2151680173391263770
+    second: RedFishHerd_8
+  - first:
+      213: 1062642228035689719
+    second: RedFishHerd_9
+  - first:
+      213: -1146569153046412986
+    second: RedFishHerd_10
+  - first:
+      213: 5478986785369524910
+    second: RedFishHerd_11
+  - first:
+      213: -2893264148695037336
+    second: RedFishHerd_12
+  - first:
+      213: -6354681789638235563
+    second: RedFishHerd_13
+  - first:
+      213: -5990094132210891633
+    second: RedFishHerd_14
+  - first:
+      213: 3211612565857305005
+    second: RedFishHerd_15
+  - first:
+      213: 8913322265905699075
+    second: RedFishHerd_16
+  - first:
+      213: -1510787135471719139
+    second: RedFishHerd_17
+  - first:
+      213: -8437957247097599385
+    second: RedFishHerd_18
+  - first:
+      213: -5911586199336735728
+    second: RedFishHerd_19
+  - first:
+      213: 3531440183313923005
+    second: RedFishHerd_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedFish_Herd_0
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 791
+        width: 412
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74062074ec10c6cba91a11d533799f59
+      internalID: 1065755132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e90a435a2db7cab8acfd244da5a6a64
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RedFishHerd_0: -1850514718787326363
+      RedFishHerd_1: -7952390029899894264
+      RedFishHerd_10: -1146569153046412986
+      RedFishHerd_11: 5478986785369524910
+      RedFishHerd_12: -2893264148695037336
+      RedFishHerd_13: -6354681789638235563
+      RedFishHerd_14: -5990094132210891633
+      RedFishHerd_15: 3211612565857305005
+      RedFishHerd_16: 8913322265905699075
+      RedFishHerd_17: -1510787135471719139
+      RedFishHerd_18: -8437957247097599385
+      RedFishHerd_19: -5911586199336735728
+      RedFishHerd_2: -3905370037269805495
+      RedFishHerd_20: 3531440183313923005
+      RedFishHerd_3: -1297385413607268310
+      RedFishHerd_4: 8553011700093095457
+      RedFishHerd_5: 2250397092557142381
+      RedFishHerd_6: -8362441877914076767
+      RedFishHerd_7: -5888252844312988642
+      RedFishHerd_8: 2151680173391263770
+      RedFishHerd_9: 1062642228035689719
+      RedFish_Herd_0: 1065755132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

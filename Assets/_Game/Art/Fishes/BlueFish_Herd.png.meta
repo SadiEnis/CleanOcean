@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 89c004635ab7e1826b6d2521d70bc56d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7664980342920808406
+    second: BlueFishHerd_0
+  - first:
+      213: -2418996432740145893
+    second: BlueFishHerd_1
+  - first:
+      213: 2948470444086359735
+    second: BlueFishHerd_2
+  - first:
+      213: 8091536786174305039
+    second: BlueFishHerd_3
+  - first:
+      213: 5337387657320243153
+    second: BlueFishHerd_4
+  - first:
+      213: 4850949959546953158
+    second: BlueFishHerd_5
+  - first:
+      213: -8312532241675180704
+    second: BlueFishHerd_6
+  - first:
+      213: 8572188849558547262
+    second: BlueFishHerd_7
+  - first:
+      213: -1070008602099217697
+    second: BlueFishHerd_8
+  - first:
+      213: -2763061702634458543
+    second: BlueFishHerd_9
+  - first:
+      213: -5595845319806573643
+    second: BlueFishHerd_10
+  - first:
+      213: -21161577655211879
+    second: BlueFishHerd_11
+  - first:
+      213: 1945722923548289791
+    second: BlueFishHerd_12
+  - first:
+      213: 5506168069438785364
+    second: BlueFishHerd_13
+  - first:
+      213: 6181039780870181677
+    second: BlueFishHerd_14
+  - first:
+      213: -2598519738632093627
+    second: BlueFishHerd_15
+  - first:
+      213: -5436860083126118942
+    second: BlueFishHerd_16
+  - first:
+      213: 7266583091830527916
+    second: BlueFishHerd_17
+  - first:
+      213: -8923575230189216465
+    second: BlueFishHerd_18
+  - first:
+      213: -3677129263525974434
+    second: BlueFishHerd_19
+  - first:
+      213: -2266722795624332576
+    second: BlueFishHerd_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueFish_Herd_0
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 792
+        width: 415
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2ec782c795a17c59a89e6dd500c281
+      internalID: -34227276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9a07f07426f6c6aa98492ea02e282bcd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueFishHerd_0: -7664980342920808406
+      BlueFishHerd_1: -2418996432740145893
+      BlueFishHerd_10: -5595845319806573643
+      BlueFishHerd_11: -21161577655211879
+      BlueFishHerd_12: 1945722923548289791
+      BlueFishHerd_13: 5506168069438785364
+      BlueFishHerd_14: 6181039780870181677
+      BlueFishHerd_15: -2598519738632093627
+      BlueFishHerd_16: -5436860083126118942
+      BlueFishHerd_17: 7266583091830527916
+      BlueFishHerd_18: -8923575230189216465
+      BlueFishHerd_19: -3677129263525974434
+      BlueFishHerd_2: 2948470444086359735
+      BlueFishHerd_20: -2266722795624332576
+      BlueFishHerd_3: 8091536786174305039
+      BlueFishHerd_4: 5337387657320243153
+      BlueFishHerd_5: 4850949959546953158
+      BlueFishHerd_6: -8312532241675180704
+      BlueFishHerd_7: 8572188849558547262
+      BlueFishHerd_8: -1070008602099217697
+      BlueFishHerd_9: -2763061702634458543
+      BlueFish_Herd_0: -34227276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+repository "bitirmeOdevi-CleanOcens/bitirmeOdevi-CleanOcens@18967471780307@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: e86c3f80dad27aa4a8630e0c78622926
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7513353057218537353
+    second: player_swimming_spritesheet_0
+  - first:
+      213: -7380949332964754273
+    second: player_swimming_spritesheet_1
+  - first:
+      213: -5230720236259611059
+    second: player_swimming_spritesheet_2
+  - first:
+      213: 6203446808148787067
+    second: player_swimming_spritesheet_3
+  - first:
+      213: -6898641906830518780
+    second: player_swimming_spritesheet_4
+  - first:
+      213: -4699177052568369880
+    second: player_swimming_spritesheet_5
+  - first:
+      213: 1027817081631769810
+    second: player_swimming_spritesheet_6
+  - first:
+      213: -2010304102221017825
+    second: player_swimming_spritesheet_7
+  - first:
+      213: 3709986122631759993
+    second: player_swimming_spritesheet_8
+  - first:
+      213: -8528576552947113763
+    second: player_swimming_spritesheet_9
+  - first:
+      213: -4841585753066760395
+    second: player_swimming_spritesheet_10
+  - first:
+      213: 5269229687978325984
+    second: player_swimming_spritesheet_11
+  - first:
+      213: 1629354963337524329
+    second: player_swimming_spritesheet_12
+  - first:
+      213: -1026502200558475502
+    second: player_swimming_spritesheet_13
+  - first:
+      213: -4608723071973990057
+    second: player_swimming_spritesheet_14
+  - first:
+      213: -7055000328800532965
+    second: player_swimming_spritesheet_15
+  - first:
+      213: -1415298521295690686
+    second: player_swimming_spritesheet_16
+  - first:
+      213: -9004663530766004275
+    second: player_swimming_spritesheet_17
+  - first:
+      213: -3274315966114149855
+    second: player_swimming_spritesheet_18
+  - first:
+      213: 1922894955755268837
+    second: player_swimming_spritesheet_19
+  - first:
+      213: 2715223419770767613
+    second: player_swimming_spritesheet_20
+  - first:
+      213: -8710988364740890617
+    second: player_swimming_spritesheet_21
+  - first:
+      213: 6150319830656516278
+    second: player_swimming_spritesheet_22
+  - first:
+      213: -3156389673216525279
+    second: player_swimming_spritesheet_23
+  - first:
+      213: 8023113793307904394
+    second: player_swimming_spritesheet_24
+  - first:
+      213: -560952128014102094
+    second: player_swimming_spritesheet_25
+  - first:
+      213: -7732083624267736489
+    second: player_swimming_spritesheet_26
+  - first:
+      213: 7539362542453027993
+    second: player_swimming_spritesheet_27
+  - first:
+      213: 7312302210813303850
+    second: player_swimming_spritesheet_28
+  - first:
+      213: 6826978431546837438
+    second: player_swimming_spritesheet_29
+  - first:
+      213: -1550218788940975867
+    second: player_swimming_spritesheet_30
+  - first:
+      213: 7975595727004508200
+    second: player_swimming_spritesheet_31
+  - first:
+      213: 8700725026968243007
+    second: player_swimming_spritesheet_32
+  - first:
+      213: 4801094080082869783
+    second: player_swimming_spritesheet_33
+  - first:
+      213: -7565336546469748824
+    second: player_swimming_spritesheet_34
+  - first:
+      213: -6306751281144687379
+    second: player_swimming_spritesheet_35
+  - first:
+      213: 6242499544883628041
+    second: player_swimming_spritesheet_36
+  - first:
+      213: 4373339666130829366
+    second: player_swimming_spritesheet_37
+  - first:
+      213: -2897043015810250903
+    second: player_swimming_spritesheet_38
+  - first:
+      213: 714416683139415827
+    second: player_swimming_spritesheet_39
+  - first:
+      213: 3032122724573669338
+    second: player_swimming_spritesheet_40
+  - first:
+      213: 2853949421565765029
+    second: player_swimming_spritesheet_41
+  - first:
+      213: 7148768756120730236
+    second: player_swimming_spritesheet_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_swimming_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 97
+        width: 177
+        height: 142
+      alignment: 9
+      pivot: {x: 0.608812, y: 0.35684246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cb733c0504234d0800000000000000
+      internalID: -3156389673216525279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 100
+        width: 182
+        height: 138
+      alignment: 9
+      pivot: {x: 0.6207721, y: 0.33988124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b158b9f2091738f0800000000000000
+      internalID: -560952128014102094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 111
+        width: 183
+        height: 130
+      alignment: 9
+      pivot: {x: 0.6218705, y: 0.28012788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9947ccf794231a860800000000000000
+      internalID: 7539362542453027993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 104
+        width: 187
+        height: 131
+      alignment: 9
+      pivot: {x: 0.62669104, y: 0.33804566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c94d55e148a7560800000000000000
+      internalID: 7312302210813303850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_4
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 84
+        width: 184
+        height: 153
+      alignment: 9
+      pivot: {x: 0.6224836, y: 0.41619027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb94a9d66bc4ebe50800000000000000
+      internalID: 6826978431546837438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_5
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 85
+        width: 185
+        height: 149
+      alignment: 9
+      pivot: {x: 0.6197213, y: 0.4217639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8202a34ae020fae60800000000000000
+      internalID: 7975595727004508200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_6
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 102
+        width: 187
+        height: 132
+      alignment: 9
+      pivot: {x: 0.6267521, y: 0.34692615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ef198e0a9e0a240800000000000000
+      internalID: 4801094080082869783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_7
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 113
+        width: 181
+        height: 121
+      alignment: 9
+      pivot: {x: 0.618073, y: 0.28162882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f332c203e1ae900800000000000000
+      internalID: 714416683139415827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_8
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 95
+        width: 177
+        height: 134
+      alignment: 9
+      pivot: {x: 0.60756946, y: 0.37820867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad76a999d83441a20800000000000000
+      internalID: 3032122724573669338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_9
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 95
+        width: 178
+        height: 137
+      alignment: 9
+      pivot: {x: 0.6091487, y: 0.3666942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5eb57c0e34b9720800000000000000
+      internalID: 2853949421565765029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_swimming_10
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 88
+        width: 178
+        height: 144
+      alignment: 9
+      pivot: {x: 0.6091473, y: 0.40015855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7abcf1de47853360800000000000000
+      internalID: 7148768756120730236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8565b70eba3ed3644b9a6989233a8379
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_swimming_0: -3156389673216525279
+      player_swimming_1: -560952128014102094
+      player_swimming_10: 7148768756120730236
+      player_swimming_2: 7539362542453027993
+      player_swimming_3: 7312302210813303850
+      player_swimming_4: 6826978431546837438
+      player_swimming_5: 7975595727004508200
+      player_swimming_6: 4801094080082869783
+      player_swimming_7: 714416683139415827
+      player_swimming_8: 3032122724573669338
+      player_swimming_9: 2853949421565765029
+      player_swimming_spritesheet_0: 7513353057218537353
+      player_swimming_spritesheet_1: -7380949332964754273
+      player_swimming_spritesheet_10: -4841585753066760395
+      player_swimming_spritesheet_11: 5269229687978325984
+      player_swimming_spritesheet_12: 1629354963337524329
+      player_swimming_spritesheet_13: -1026502200558475502
+      player_swimming_spritesheet_14: -4608723071973990057
+      player_swimming_spritesheet_15: -7055000328800532965
+      player_swimming_spritesheet_16: -1415298521295690686
+      player_swimming_spritesheet_17: -9004663530766004275
+      player_swimming_spritesheet_18: -3274315966114149855
+      player_swimming_spritesheet_19: 1922894955755268837
+      player_swimming_spritesheet_2: -5230720236259611059
+      player_swimming_spritesheet_20: 2715223419770767613
+      player_swimming_spritesheet_21: -8710988364740890617
+      player_swimming_spritesheet_22: 6150319830656516278
+      player_swimming_spritesheet_24: 8023113793307904394
+      player_swimming_spritesheet_26: -7732083624267736489
+      player_swimming_spritesheet_3: 6203446808148787067
+      player_swimming_spritesheet_30: -1550218788940975867
+      player_swimming_spritesheet_32: 8700725026968243007
+      player_swimming_spritesheet_34: -7565336546469748824
+      player_swimming_spritesheet_35: -6306751281144687379
+      player_swimming_spritesheet_36: 6242499544883628041
+      player_swimming_spritesheet_37: 4373339666130829366
+      player_swimming_spritesheet_38: -2897043015810250903
+      player_swimming_spritesheet_4: -6898641906830518780
+      player_swimming_spritesheet_5: -4699177052568369880
+      player_swimming_spritesheet_6: 1027817081631769810
+      player_swimming_spritesheet_7: -2010304102221017825
+      player_swimming_spritesheet_8: 3709986122631759993
+      player_swimming_spritesheet_9: -8528576552947113763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

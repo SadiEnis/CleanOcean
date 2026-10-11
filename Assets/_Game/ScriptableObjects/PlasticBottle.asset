@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc42f0d3152498e8ab8adc99f741dff, type: 3}
+  m_Name: PlasticBottle
+  m_EditorClassIdentifier: 
+  _trashName: "Plastik \u015Ei\u015Fe"
+  _trashSprite: {fileID: 1053421076573987620, guid: 71a8f8430f8c31484842524056f491fc, type: 3}
+  _scoreValue: 10
+  _trashType: 0
