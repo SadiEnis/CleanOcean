@@ -1,15 +1,15 @@
 # OceanClean
 
 **OceanClean** is a 2D online co-op multiplayer game developed in Unity.  
-Players work together to clean ocean waste, deliver collected trash to a recycling point, earn score, and progress through a session-based gameplay loop.
+Players work together to clean ocean waste, deliver collected trash to a recycling point, earn score, and complete a session-based environmental gameplay loop.
 
-The project was developed as a graduation project and focuses on online multiplayer gameplay, lobby flow, player synchronization, WebGL support, persistent player data, and an admin dashboard for monitoring game activity.
+This project was developed as a graduation project with a focus on multiplayer gameplay, lobby flow, player synchronization, WebGL support, gameplay systems, and API-integrated player progression.
 
 ---
 
 ## Project Overview
 
-OceanClean is designed around a simple but meaningful gameplay loop:
+OceanClean is designed around a simple and accessible co-op gameplay loop:
 
 1. Players log in to the game.
 2. They create or join an online lobby.
@@ -17,9 +17,24 @@ OceanClean is designed around a simple but meaningful gameplay loop:
 4. Players collect trash from the ocean environment.
 5. Collected trash is delivered to a recycling point.
 6. Players earn score and in-game currency.
-7. Match results are saved and shown at the end of the session.
+7. Match results are shown at the end of the session.
+8. Players can return to the lobby and continue playing.
 
-The project combines gameplay programming, multiplayer networking, backend integration, persistent player progression, and web-based administration.
+The project combines Unity gameplay programming, online multiplayer systems, UI flow, WebGL deployment, and persistent player data integration.
+
+---
+
+## Sustainable Development Goals
+
+OceanClean is aligned with the following United Nations Sustainable Development Goals:
+
+### SDG 14: Life Below Water
+
+OceanClean directly supports the theme of **Life Below Water** by focusing on ocean pollution, waste collection, and recycling. The core gameplay loop encourages players to clean ocean waste and deliver collected trash to a recycling point, creating awareness around marine pollution and the importance of protecting aquatic ecosystems.
+
+### SDG 17: Partnerships for the Goals
+
+The project also relates to **Partnerships for the Goals** through its cooperative multiplayer structure. OceanClean is built around teamwork, shared objectives, and collaborative problem-solving, where players work together toward a common environmental goal.
 
 ---
 
@@ -31,22 +46,19 @@ The project combines gameplay programming, multiplayer networking, backend integ
 - Unity Relay-based online connection
 - Unity Lobby integration
 - Netcode for GameObjects multiplayer architecture
-- Host migration support at lobby level
+- Lobby-level host migration support
 - Player login and register flow
-- Player profile and currency system
+- Player profile and currency display
 - Trash collection and recycling gameplay loop
 - Score calculation and match result screen
 - Leaderboard system
 - Shop and inventory UI structure
 - WebGL-compatible multiplayer setup
-- Admin dashboard for player, match, economy, and activity data
-- Local and server-based API support
+- Local API configuration support
 
 ---
 
 ## Technologies Used
-
-### Game Client
 
 - Unity
 - C#
@@ -54,47 +66,32 @@ The project combines gameplay programming, multiplayer networking, backend integ
 - Unity Lobby
 - Unity Relay
 - Unity Transport
+- Unity Authentication
 - Unity WebGL
 - Unity UI
-
-### Backend
-
-- ASP.NET Core Web API
-- .NET 8
-- MySQL
-- MySqlConnector
-- BCrypt password hashing
-- JWT authentication
-- Swagger / OpenAPI
-
-### Admin Panel
-
-- React
-- Vite
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
 - REST API integration
-
-### Development Tools
-
-- Rider
 - Git / GitHub
-- MySQL Workbench
-- Postman / Swagger
-- Linux server deployment
-- Nginx
-- systemd
 
 ---
 
 ## Gameplay Systems
 
+### Core Gameplay Loop
+
+The main gameplay loop is based on collecting ocean waste and delivering it to a recycling point. This loop is designed to be simple, readable, and suitable for short multiplayer sessions.
+
+```text
+Find Trash
+→ Collect Trash
+→ Move to Recycling Point
+→ Deliver Trash
+→ Gain Score
+→ Continue Cleaning
+```
+
 ### Player Flow
 
-The player starts from the main menu and proceeds through authentication, main hub, lobby selection, gameplay, and result screens.
-
-Main flow:
+The player moves through the following main flow:
 
 ```text
 Main Menu
@@ -109,218 +106,169 @@ Main Menu
 
 ### Trash Collection
 
-Players move around the map and collect trash objects. Trash is delivered to a recycling point to gain score. This system forms the core gameplay loop of the project.
+Players move around the map and collect trash objects placed in the environment. The collected trash is delivered to a recycling point to gain score.
 
 ### Score System
 
-Each successful recycling action contributes to the player score. At the end of the match, scores are displayed on the result screen and can be saved to the backend.
+Players earn score by successfully recycling collected trash. At the end of the match, player scores are displayed on the result screen.
 
 ### Leaderboard
 
-The leaderboard lists active players based on their total score. This creates long-term motivation and allows players to compare their progress.
+The leaderboard displays players based on their total score. This creates long-term motivation and allows players to compare their progress.
 
-### Shop and Inventory
+### Shop and Inventory UI
 
-The project includes shop and inventory UI structures connected to backend data. These systems are designed to support long-term progression and future cosmetic or item-based features.
+The project includes shop and inventory UI structures designed to support player progression and future item-based systems.
 
 ---
 
 ## Multiplayer Architecture
 
-OceanClean uses Unity’s multiplayer services and Netcode for GameObjects.
+OceanClean uses Unity multiplayer services and Netcode for GameObjects.
 
 ### Lobby System
 
-Players can create or join lobbies before entering the game. Lobby data includes player information, lobby ownership, and Relay join code.
+Players can create or join lobbies before entering the game. The lobby system manages lobby ownership, player list display, lobby code, and the pre-game waiting flow.
 
 ### Relay Connection
 
-Unity Relay is used to connect players without requiring direct IP connections. The host creates a Relay allocation, and clients join through the Relay join code stored in lobby data.
+Unity Relay is used to connect players without requiring direct IP connections. The host creates a Relay allocation, and clients join the session through the Relay join code stored in lobby data.
+
+### Player Synchronization
+
+Netcode for GameObjects is used to synchronize multiplayer gameplay elements such as player presence, scene transitions, and game session flow.
 
 ### Host Migration
 
-The project includes lobby-level host migration. If the host leaves the lobby, another player can become the new host. The new host creates a new Relay connection and updates the lobby data so other players can reconnect.
+OceanClean includes lobby-level host migration. If the host leaves the lobby, another player can become the new host. The new host creates a new Relay connection and updates lobby data so the session can continue from the lobby state.
 
 ### WebGL Support
 
-WebGL builds require WebSocket-based Relay configuration. The project handles WebGL-specific Relay connection setup to support browser-based multiplayer gameplay.
+The project supports WebGL builds. Since WebGL requires WebSocket-based networking, Relay connection configuration is handled with WebGL compatibility in mind.
 
 ---
 
-## Backend Overview
+## API Integration
 
-The backend API manages persistent player and game data.
+OceanClean connects to an external API for persistent player data.
 
-Main backend responsibilities:
+The Unity client uses API integration for:
 
-- User registration
-- User login
-- Password hashing
-- Player profile management
-- Currency tracking
-- Match result saving
+- Login
+- Register
+- Player profile data
+- Currency data
 - Leaderboard data
 - Inventory data
-- Shop item data
-- Admin dashboard data
-- Player login activity logs
-- Admin audit logs
+- Shop data
+- Match result updates
 
-The Unity client communicates with the API through REST endpoints.
+For local development, the API base URL can be configured to point to a local backend instance.
 
----
-
-## Database Overview
-
-The project uses a MySQL database. Main tables include:
-
-- `users`
-- `player_profiles`
-- `player_login_logs`
-- `matches`
-- `match_players`
-- `player_action_logs`
-- `shop_items`
-- `player_inventory`
-- `currency_transactions`
-- `admin_users`
-- `admin_audit_logs`
-
-The database stores both gameplay-related data and admin panel data.
-
----
-
-## Admin Panel
-
-The admin panel is used to monitor and manage game data.
-
-Main admin features:
-
-- Dashboard overview
-- Player list
-- Player detail page
-- Player status management
-- Match list
-- Match detail page
-- Economy tracking
-- Activity charts
-- Event logs
-- Admin profile
-- Admin audit logs
-
-This makes the project more than a standalone Unity prototype by adding live data monitoring and management capabilities.
-
----
-
-## Screenshots
-
-> Screenshots can be added here.
+Example local API URL:
 
 ```text
-/docs/images/main-menu.png
-/docs/images/lobby.png
-/docs/images/gameplay.png
-/docs/images/result-screen.png
-/docs/images/admin-dashboard.png
+http://localhost:5211
 ```
 
 ---
 
 ## Local Development Setup
 
-### 1. Backend API
-
-Clone the backend project and restore dependencies:
+### 1. Clone the Repository
 
 ```bash
-dotnet restore
-dotnet build
+git clone <repository-url>
 ```
 
-Run the API:
+### 2. Open the Project in Unity
 
-```bash
-dotnet run
-```
-
-Swagger will be available at:
+Open the project using the Unity version defined in:
 
 ```text
-http://localhost:5211/swagger
+ProjectSettings/ProjectVersion.txt
 ```
 
-Example local connection string:
+### 3. Restore Packages
 
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;Database=clean_oceans_db;User=root;Password=your_password;"
-  }
-}
-```
-
-### 2. Admin Panel
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Create a `.env` file:
-
-```env
-VITE_API_BASE_URL=http://localhost:5211/api
-```
-
-Run the admin panel:
-
-```bash
-npm run dev
-```
-
-Admin panel will be available at:
+Unity should automatically restore packages from:
 
 ```text
-http://localhost:5173
+Packages/manifest.json
+Packages/packages-lock.json
 ```
 
-### 3. Unity Client
+### 4. Configure API Base URL
 
-Open the Unity project and set the API base URL to your local API address:
+Set the API base URL to your local or remote backend address.
+
+For local development:
 
 ```text
 http://localhost:5211
 ```
 
-Then enter Play Mode and test:
+Do not include `/api` at the end if the Unity API client already sends endpoints such as:
 
-- Login
-- Register
-- Main Hub
-- Leaderboard
-- Lobby creation
-- Lobby joining
-- Match start
-- Match result update
+```text
+/api/auth/login
+/api/leaderboard
+/api/player/profile
+```
 
-### 4. WebGL Build
+Correct example:
 
-Build the Unity project for WebGL.
+```text
+http://localhost:5211
+```
 
-Run the build with a local server:
+Wrong example if endpoints already include `/api`:
+
+```text
+http://localhost:5211/api
+```
+
+### 5. Run the Game in Unity Editor
+
+Before entering Play Mode, make sure the backend API is running if you want to test login, profile, leaderboard, shop, inventory, or match result features.
+
+Recommended test order:
+
+```text
+Login
+→ Main Hub
+→ Leaderboard
+→ Create Lobby
+→ Join Lobby
+→ Start Match
+→ Finish Match
+→ Match Result
+```
+
+---
+
+## WebGL Build
+
+To test the WebGL version:
+
+1. Open Unity Build Settings.
+2. Select WebGL.
+3. Build the project.
+4. Run the build with a local server.
+
+Example:
 
 ```bash
 python -m http.server 8080
 ```
 
-Open:
+Open the build in browser:
 
 ```text
 http://localhost:8080
 ```
 
-Make sure the API allows the WebGL origin in CORS settings:
+If the Unity client communicates with a local API, make sure the API allows the WebGL origin in CORS settings:
 
 ```text
 http://localhost:8080
@@ -328,26 +276,72 @@ http://localhost:8080
 
 ---
 
-## Important Notes
-
-Do not commit sensitive local configuration files such as:
+## Recommended Repository Structure
 
 ```text
-appsettings.Development.json
-.env
-bin/
-obj/
-Library/
-Temp/
-Logs/
-UserSettings/
+OceanClean/
+├── Assets/
+├── Packages/
+│   ├── manifest.json
+│   └── packages-lock.json
+├── ProjectSettings/
+├── README.md
+└── .gitignore
 ```
 
-Recommended files to keep as examples:
+---
+
+## Do Not Commit
+
+The following folders and files should not be committed:
 
 ```text
-appsettings.Development.example.json
-.env.example
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+*.csproj
+*.sln
+.env
+*.sql
+*.zip
+```
+
+Unity `.meta` files should be committed. They are required for correct asset references.
+
+---
+
+## Screenshots
+
+Screenshots can be added here.
+
+```text
+/docs/images/main-menu.png
+/docs/images/lobby.png
+/docs/images/gameplay.png
+/docs/images/result-screen.png
+/docs/images/leaderboard.png
+```
+
+Example layout:
+
+```markdown
+## Screenshots
+
+### Main Menu
+![Main Menu](docs/images/main-menu.png)
+
+### Lobby
+![Lobby](docs/images/lobby.png)
+
+### Gameplay
+![Gameplay](docs/images/gameplay.png)
+
+### Match Result
+![Match Result](docs/images/result-screen.png)
 ```
 
 ---
@@ -357,13 +351,16 @@ appsettings.Development.example.json
 Current project status:
 
 - Unity client is playable.
-- Local backend API is functional.
-- MySQL database integration is working.
-- Admin panel is functional.
+- Login and register flow is implemented.
+- Main Hub UI is implemented.
+- Lobby creation and lobby joining are implemented.
+- Unity Lobby and Relay integration is implemented.
+- Netcode for GameObjects multiplayer flow is implemented.
+- Match result screen is implemented.
 - Leaderboard system is connected.
-- Lobby and Relay systems are implemented.
+- Shop and inventory UI structure is implemented.
 - WebGL support is being tested.
-- Host migration has been implemented at lobby level.
+- Lobby-level host migration has been implemented.
 
 ---
 
@@ -379,9 +376,9 @@ Planned or possible future improvements:
 - More maps
 - Mission and achievement systems
 - Improved in-game economy
-- Better WebGL UI optimization
-- More detailed analytics dashboard
-- Full in-game host migration or controlled match recovery
+- More polished UI animations
+- Better WebGL optimization
+- Improved multiplayer recovery during active gameplay
 
 ---
 
@@ -389,7 +386,7 @@ Planned or possible future improvements:
 
 Developed by **Sadi Enis Güçlüer**.
 
-This project was developed as a graduation project focused on game development, multiplayer systems, backend integration, and full-stack game infrastructure.
+This project was developed as a graduation project focused on Unity game development, online multiplayer systems, WebGL support, and gameplay programming.
 
 ---
 
